@@ -1,11 +1,11 @@
 body
 {
-    background-color: rgb(7, 99, 60);
+    background-color: rgb(240, 234, 214);
 }
 
 h1
 {
-    color: rgb(170, 125, 27);
+    color: rgb(45, 167, 167);
 }
 a{
     text-decoration: none;
@@ -16,7 +16,7 @@ a{
 
 a:hover
 {
-color: darkolivegreen;
+color: rgb(45, 167, 167);
 font-size: 18pt;
 
 }
