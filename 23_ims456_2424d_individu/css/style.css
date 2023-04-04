@@ -1,0 +1,22 @@
+body
+{
+    background-color: rgb(7, 99, 60);
+}
+
+h1
+{
+    color: rgb(170, 125, 27);
+}
+a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 16pt;
+}
+
+a:hover
+{
+color: darkolivegreen;
+font-size: 18pt;
+
+}
