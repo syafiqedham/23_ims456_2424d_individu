@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<title>Welcome to Syafiq Edham Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+ul { list-style-type:disc;}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+	<div class="w3-container">
+		<a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="Close Menu">
+		<i class="fa fa-remove"></i>
+		</a>
+	<img src="Image/resume.png" style="width:45%;" class="w3-round"><br><br>
+	<h4><b>MY RESUME</b></h4>
+	<p class="w3-text-grey">Syafiq Edham Website</p>
+	</div>
+	<div class="w3-bar-block">
+	<a href="aboutme.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-lightbulb-o fa-fw w3-margin-right"></i>ABOUT ME</a>
+	<a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user-circle fa-fw w3-margin-right"></i>PERSONAL DETAILS</a>
+	<a href="educationbackground.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>EDUCATIONAL BACKGROUND</a> 
+    <a href="work.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-briefcase fa-fw w3-margin-right"></i>WORKING EXPERIENCE</a>
+	<a href="skilllanguage.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-cyan"><i class="fa fa-wrench fa-fw w3-margin-right"></i>SKILLS & LANGUAGE</a>	
+	<a href="contactsaya.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-address-card fa-fw w3-margin-right"></i>CONTACT ME</a>	
+	</div>
+	<div class="w3-panel w3-large">
+	<a href="https://www.instagram.com/iamsyxfiq_"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+	<a href="https://youtube.com/@iamsyxfiq3775"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+	</div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" 	onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+	<img class="w3-image" src="Image/Welcome.png" alt="Banner Resume" width="1500" height="600">
+	<span class="w3-button w3-left w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()" title="Open Menu"><i class="fa fa-bars"></i></span>
+	<div class="w3-container">
+	<h1><b><u>Skills & Language</u></b></h1>
+</header>
+ 
+ <!--Content-->
+<div class="w3-container w3-padding-large" style="margin-bottom:32px">
+	<h4><b><u>Personal Skills</u></b></h4>
+<ul>
+	<li>Able to work in teamwork.</li>
+	<li>Expert in using Canva.</li>
+	<li>Expert in Microsoft Word, Excel and Powerpoint.</li>
+	<li>Easily to adapt with hectic working environment.</li>
+	<li>Good communication skills.</li>
+	<li>Fast learner.</li>
+</ul>
+<br>
+	<h4><b><u>Languages</u></b></h4>
+		<p>Bahasa Melayu</p>
+    		<div class="w3-grey">
+		<div class="w3-container w3-orange w3-padding w3-center" style="width:100%">100%</div>
+		</div>
+		<p>English</p>
+		<div class="w3-grey">
+		<div class="w3-container w3-purple w3-padding w3-center" style="width:85%">85%</div>
+		</div>
+		<p>Arabic</p>
+		<div class="w3-grey">
+		<div class="w3-container w3-green w3-padding w3-center" style="width:45%">45%</div>
+		</div>
+		<p>Japanese</p>
+		<div class="w3-grey">
+		<div class="w3-container w3-blue w3-padding w3-center" style="width:40%">40%</div>
+		</div>
+		<p>Korean</p>
+		<div class="w3-grey">
+		<div class="w3-container w3-red w3-padding w3-center" style="width:35%">35%</div>
+		</div>
+<br>
+<br>
+<br>
+  <div class="w3-light-grey w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+<br>
+<footer>
+<p style="text-align:center; font-size:10px;">Copyright 2023&copy Syafiq Edham. Recommended browser: Google Chrome. Resolution 1108 x 778. Last update: 9<sup>TH</sup> July 2023. <br>This site for assignment purpose only.</p>
+</footer>
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
