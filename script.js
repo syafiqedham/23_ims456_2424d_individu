@@ -19,3 +19,4 @@ showSlide(currentSlide);
 setInterval(nextSlide, 3000); // Change slide every 2 seconds
 
   
+
